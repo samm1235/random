@@ -1,4 +1,8 @@
 print('hello')
 print(2)
 
-print(hello)
+import requests
+
+r = requests.get("https://google.com")
+print(r)
+
